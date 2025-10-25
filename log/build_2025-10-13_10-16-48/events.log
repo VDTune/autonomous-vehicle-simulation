@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001075] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.001140] (-) JobUnselected: {'identifier': 'velodyne_description'}
+[0.001164] (-) JobUnselected: {'identifier': 'velodyne_gazebo_plugins'}
+[0.001181] (-) JobUnselected: {'identifier': 'velodyne_simulator'}
+[0.001196] (-) EventReactorShutdown: {}

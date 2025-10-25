@@ -1,0 +1,1 @@
+/home/vdtune/ros2_ws/src/mobile-3d-lidar-sim/my_bot/launch/launch_sim.launch.py

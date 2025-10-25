@@ -1,0 +1,6 @@
+Invoking command in '/home/vdtune/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vdtune/ros2_ws/src/mobile-3d-lidar-sim/my_bot -DCMAKE_INSTALL_PREFIX=/home/vdtune/ros2_ws/install/my_bot
+Invoked command in '/home/vdtune/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vdtune/ros2_ws/src/mobile-3d-lidar-sim/my_bot -DCMAKE_INSTALL_PREFIX=/home/vdtune/ros2_ws/install/my_bot
+Invoking command in '/home/vdtune/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/my_bot -- -j8 -l8
+Invoked command in '/home/vdtune/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/my_bot -- -j8 -l8
+Invoking command in '/home/vdtune/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/my_bot
+Invoked command in '/home/vdtune/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/my_bot

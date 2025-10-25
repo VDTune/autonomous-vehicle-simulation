@@ -1,0 +1,19 @@
+[0.740s] Invoking command in '/home/vdtune/ros2_ws/src/my_avoidance': PYTHONPATH=/home/vdtune/ros2_ws/build/my_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_avoidance build --build-base /home/vdtune/ros2_ws/build/my_avoidance/build install --record /home/vdtune/ros2_ws/build/my_avoidance/install.log --single-version-externally-managed install_data
+[1.072s] running egg_info
+[1.075s] writing ../../build/my_avoidance/my_avoidance.egg-info/PKG-INFO
+[1.075s] writing dependency_links to ../../build/my_avoidance/my_avoidance.egg-info/dependency_links.txt
+[1.076s] writing entry points to ../../build/my_avoidance/my_avoidance.egg-info/entry_points.txt
+[1.076s] writing requirements to ../../build/my_avoidance/my_avoidance.egg-info/requires.txt
+[1.076s] writing top-level names to ../../build/my_avoidance/my_avoidance.egg-info/top_level.txt
+[1.080s] reading manifest file '../../build/my_avoidance/my_avoidance.egg-info/SOURCES.txt'
+[1.081s] writing manifest file '../../build/my_avoidance/my_avoidance.egg-info/SOURCES.txt'
+[1.081s] running build
+[1.081s] running build_py
+[1.081s] copying my_avoidance/__init__.py -> /home/vdtune/ros2_ws/build/my_avoidance/build/lib/my_avoidance
+[1.082s] running install
+[1.084s] running install_lib
+[1.086s] copying /home/vdtune/ros2_ws/build/my_avoidance/build/lib/my_avoidance/__init__.py -> /home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages/my_avoidance
+[1.087s] byte-compiling /home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages/my_avoidance/__init__.py to __init__.cpython-310.pyc
+[1.088s] running install_data
+[1.089s] error: can't copy 'resource/my_avoidance': doesn't exist or not a regular file
+[1.125s] Invoked command in '/home/vdtune/ros2_ws/src/my_avoidance' returned '1': PYTHONPATH=/home/vdtune/ros2_ws/build/my_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_avoidance build --build-base /home/vdtune/ros2_ws/build/my_avoidance/build install --record /home/vdtune/ros2_ws/build/my_avoidance/install.log --single-version-externally-managed install_data
