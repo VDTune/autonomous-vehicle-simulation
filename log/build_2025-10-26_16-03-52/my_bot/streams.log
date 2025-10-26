@@ -1,0 +1,37 @@
+[0.020s] Invoking command in '/home/vdtune/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/my_bot -- -j8 -l8
+[0.100s] Invoked command in '/home/vdtune/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/my_bot -- -j8 -l8
+[0.105s] Invoking command in '/home/vdtune/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/my_bot
+[0.124s] -- Install configuration: ""
+[0.124s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/config
+[0.124s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.125s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description
+[0.126s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.127s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro.save
+[0.127s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.127s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf
+[0.127s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.127s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.127s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch
+[0.128s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.130s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.131s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds
+[0.131s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.131s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[0.131s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/rviz
+[0.131s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/rviz/my_bot.rviz
+[0.131s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.131s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.132s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.132s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.132s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.132s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.133s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.134s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.134s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[0.134s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.134s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.135s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.135s] -- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/package.xml
+[0.139s] Invoked command in '/home/vdtune/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/my_bot

@@ -1,0 +1,63 @@
+[0.015s] Invoking command in '/home/vdtune/ros2_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vdtune/ros2_ws/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/vdtune/ros2_ws/install/velodyne_description
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.388s] -- The CXX compiler identification is GNU 11.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.568s] -- Detecting C compiler ABI info - done
+[0.578s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.578s] -- Detecting C compile features
+[0.580s] -- Detecting C compile features - done
+[0.588s] -- Detecting CXX compiler ABI info
+[0.693s] -- Detecting CXX compiler ABI info - done
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.702s] -- Detecting CXX compile features
+[0.703s] -- Detecting CXX compile features - done
+[0.712s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.930s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.088s] -- Configuring done
+[1.090s] -- Generating done
+[1.091s] -- Build files have been written to: /home/vdtune/ros2_ws/build/velodyne_description
+[1.097s] Invoked command in '/home/vdtune/ros2_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vdtune/ros2_ws/src/velodyne_simulator/velodyne_description -DCMAKE_INSTALL_PREFIX=/home/vdtune/ros2_ws/install/velodyne_description
+[1.097s] Invoking command in '/home/vdtune/ros2_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/velodyne_description -- -j8 -l8
+[1.153s] Invoked command in '/home/vdtune/ros2_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/velodyne_description -- -j8 -l8
+[1.161s] Invoking command in '/home/vdtune/ros2_ws/build/velodyne_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/velodyne_description
+[1.168s] -- Install configuration: ""
+[1.169s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/launch
+[1.169s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/launch/example.launch.py
+[1.171s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes
+[1.171s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae
+[1.172s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae
+[1.174s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl
+[1.175s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl
+[1.175s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl
+[1.175s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae
+[1.176s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl
+[1.177s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl
+[1.177s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae
+[1.180s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae
+[1.181s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/models
+[1.181s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/models/HDL-32E.urdf.xacro
+[1.182s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/models/model.config
+[1.182s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/rviz
+[1.182s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/rviz/example.rviz
+[1.182s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/urdf
+[1.182s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro
+[1.183s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro
+[1.183s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/world
+[1.183s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/world/example.world
+[1.185s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/velodyne_description.dsv
+[1.185s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+[1.185s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+[1.185s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh
+[1.185s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/path.sh
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/path.dsv
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.bash
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.sh
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.zsh
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.dsv
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/package.dsv
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake
+[1.186s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/package.xml
+[1.187s] Invoked command in '/home/vdtune/ros2_ws/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/velodyne_description

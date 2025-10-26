@@ -1,0 +1,43 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vdtune/ros2_ws/build/my_bot
+-- Install configuration: ""
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/config
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro.save
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/rviz
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/rviz/my_bot.rviz
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/package.dsv
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/package.xml

@@ -1,0 +1,1 @@
+Invoking command in '/home/vdtune/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vdtune/ros2_ws/src/mobile-3d-lidar-sim/my_bot -DCMAKE_INSTALL_PREFIX=/home/vdtune/ros2_ws/install/my_bot

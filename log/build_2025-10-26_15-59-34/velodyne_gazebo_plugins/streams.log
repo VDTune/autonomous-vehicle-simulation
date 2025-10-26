@@ -1,0 +1,32 @@
+[0.021s] Invoking command in '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/velodyne_gazebo_plugins -- -j8 -l8
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[21.451s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[22.197s] [100%] Built target gazebo_ros_velodyne_laser
+[22.213s] Invoked command in '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --build /home/vdtune/ros2_ws/build/velodyne_gazebo_plugins -- -j8 -l8
+[22.214s] Invoking command in '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/velodyne_gazebo_plugins
+[22.223s] -- Install configuration: ""
+[22.223s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so
+[22.226s] -- Set runtime path of "/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""
+[22.226s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins
+[22.226s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.hpp
+[22.229s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+[22.229s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+[22.229s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+[22.229s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+[22.230s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+[22.231s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+[22.231s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+[22.231s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+[22.231s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+[22.231s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+[22.231s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+[22.231s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+[22.232s] -- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml
+[22.235s] Invoked command in '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble /usr/bin/cmake --install /home/vdtune/ros2_ws/build/velodyne_gazebo_plugins

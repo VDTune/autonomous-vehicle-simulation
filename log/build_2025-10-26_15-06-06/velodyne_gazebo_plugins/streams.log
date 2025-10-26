@@ -1,0 +1,103 @@
+[0.025s] Invoking command in '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vdtune/ros2_ws/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.180s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.371s] -- Detecting CXX compiler ABI info - done
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.384s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.746s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.777s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.784s] -- Checking for module 'bullet>=2.82'
+[0.816s] --   Found bullet, version 3.05
+[0.968s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.047s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.099s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.352s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.376s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.382s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.393s] -- Searching for dependencies of ignition-math6
+[1.397s] -- Looking for OGRE...
+[1.397s] -- OGRE_PREFIX_WATCH changed.
+[1.401s] -- Checking for module 'OGRE'
+[1.411s] --   Found OGRE, version 1.9.0
+[1.452s] -- Found Ogre Ghadamon (1.9.0)
+[1.459s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.469s] -- Looking for OGRE_Paging...
+[1.478s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.479s] -- Looking for OGRE_Terrain...
+[1.483s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.484s] -- Looking for OGRE_Property...
+[1.501s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.501s] -- Looking for OGRE_RTShaderSystem...
+[1.506s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.506s] -- Looking for OGRE_Volume...
+[1.511s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.511s] -- Looking for OGRE_Overlay...
+[1.516s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.615s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.620s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.620s] -- Searching for dependencies of ignition-transport8
+[1.634s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.647s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.653s] -- Checking for module 'libzmq >= 4'
+[1.668s] --   Found libzmq , version 4.3.4
+[1.712s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.717s] -- Checking for module 'uuid'
+[1.727s] --   Found uuid, version 2.37.2
+[1.753s] -- Found UUID: TRUE  
+[1.756s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.756s] -- Searching for dependencies of ignition-msgs5
+[1.770s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.776s] -- Checking for module 'tinyxml2'
+[1.786s] --   Found tinyxml2, version 9.0.0
+[1.846s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.850s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.850s] -- Searching for dependencies of ignition-common3
+[1.850s] -- Looking for dlfcn.h - found
+[1.852s] -- Looking for libdl - found
+[1.852s] -- Found DL: TRUE  
+[1.861s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.862s] -- Searching for <ignition-common3> component [graphics]
+[1.864s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.864s] -- Searching for dependencies of ignition-common3-graphics
+[1.865s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.867s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.868s] -- Searching for dependencies of ignition-fuel_tools4
+[1.994s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.009s] -- Checking for module 'jsoncpp'
+[2.032s] --   Found jsoncpp, version 1.9.5
+[2.102s] -- Found JSONCPP: TRUE  
+[2.111s] -- Checking for module 'libzip'
+[2.121s] --   Found libzip, version 1.7.3
+[2.164s] -- Found ZIP: TRUE  
+[2.166s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.166s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.166s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.174s] -- Gazebo version: 11.10
+[2.174s] -- Checking for module 'tbb'
+[2.185s] --   Found tbb, version 2021.5.0
+[2.209s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.261s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.266s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.276s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.366s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.377s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.480s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.527s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.552s] -- Found Threads: TRUE  
+[2.638s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.699s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.792s] -- Configuring done
+[2.846s] -- Generating done
+[2.852s] -- Build files have been written to: /home/vdtune/ros2_ws/build/velodyne_gazebo_plugins

@@ -1,0 +1,368 @@
+[0.000000] (-) TimerEvent: {}
+[0.001527] (-) JobUnselected: {'identifier': 'my_avoidance'}
+[0.001598] (-) JobUnselected: {'identifier': 'velodyne_simulator'}
+[0.001794] (velodyne_description) JobQueued: {'identifier': 'velodyne_description', 'dependencies': OrderedDict()}
+[0.001848] (velodyne_gazebo_plugins) JobQueued: {'identifier': 'velodyne_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.001869] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict([('velodyne_description', '/home/vdtune/ros2_ws/install/velodyne_description'), ('velodyne_gazebo_plugins', '/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins')])}
+[0.001909] (velodyne_description) JobStarted: {'identifier': 'velodyne_description'}
+[0.013466] (velodyne_gazebo_plugins) JobStarted: {'identifier': 'velodyne_gazebo_plugins'}
+[0.017276] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'cmake'}
+[0.022040] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'build'}
+[0.022076] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vdtune/ros2_ws/build/velodyne_description', '--', '-j8', '-l8'], 'cwd': '/home/vdtune/ros2_ws/build/velodyne_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vdtune'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdtune'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '6071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vdtune/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vdtune'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdtune'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vdtune/ros2_ws/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vdtune/ros2_ws/install/my_avoidance/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vdtune-virtual-machine:@/tmp/.ICE-unix/1377,unix/vdtune-virtual-machine:/tmp/.ICE-unix/1377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b39d0cd_a219_4c47_82d5_e741bd6eb303'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XUQYE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdtune/ros2_ws/build/velodyne_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble')]), 'shell': False}
+[0.032702] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'cmake'}
+[0.032783] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'build'}
+[0.032809] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins', '--', '-j8', '-l8'], 'cwd': '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vdtune'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdtune'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '6071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vdtune/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vdtune'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdtune'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vdtune/ros2_ws/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vdtune/ros2_ws/install/my_avoidance/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vdtune-virtual-machine:@/tmp/.ICE-unix/1377,unix/vdtune-virtual-machine:/tmp/.ICE-unix/1377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b39d0cd_a219_4c47_82d5_e741bd6eb303'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XUQYE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble')]), 'shell': False}
+[0.069515] (velodyne_description) CommandEnded: {'returncode': 0}
+[0.069868] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'install'}
+[0.079832] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vdtune/ros2_ws/build/velodyne_description'], 'cwd': '/home/vdtune/ros2_ws/build/velodyne_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vdtune'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdtune'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '6071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vdtune/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vdtune'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdtune'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vdtune/ros2_ws/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vdtune/ros2_ws/install/my_avoidance/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vdtune-virtual-machine:@/tmp/.ICE-unix/1377,unix/vdtune-virtual-machine:/tmp/.ICE-unix/1377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b39d0cd_a219_4c47_82d5_e741bd6eb303'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XUQYE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdtune/ros2_ws/build/velodyne_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble')]), 'shell': False}
+[0.089811] (velodyne_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.090011] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/launch\n'}
+[0.090089] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/launch/example.launch.py\n'}
+[0.090156] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes\n'}
+[0.091930] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae\n'}
+[0.092022] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae\n'}
+[0.092088] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl\n'}
+[0.092146] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl\n'}
+[0.092204] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl\n'}
+[0.092302] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae\n'}
+[0.092360] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl\n'}
+[0.092416] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl\n'}
+[0.092474] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae\n'}
+[0.092532] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae\n'}
+[0.092631] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/models\n'}
+[0.092691] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/models/HDL-32E.urdf.xacro\n'}
+[0.092824] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/models/model.config\n'}
+[0.092880] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/rviz\n'}
+[0.092934] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/rviz/example.rviz\n'}
+[0.092988] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/urdf\n'}
+[0.093169] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro\n'}
+[0.093260] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro\n'}
+[0.093316] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/world\n'}
+[0.093559] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/world/example.world\n'}
+[0.093626] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/velodyne_description.dsv\n'}
+[0.093685] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description\n'}
+[0.095370] (velodyne_gazebo_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o\x1b[0m\n'}
+[0.097369] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description\n'}
+[0.097914] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh\n'}
+[0.098178] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv\n'}
+[0.098602] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/path.sh\n'}
+[0.099221] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/environment/path.dsv\n'}
+[0.099496] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.bash\n'}
+[0.099638] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.sh\n'}
+[0.099757] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.zsh\n'}
+[0.099879] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/local_setup.dsv\n'}
+[0.099997] (-) TimerEvent: {}
+[0.100558] (velodyne_description) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/package.dsv\n'}
+[0.102526] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description\n'}
+[0.102615] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake\n'}
+[0.102838] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake\n'}
+[0.102903] (velodyne_description) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/velodyne_description/share/velodyne_description/package.xml\n'}
+[0.102960] (velodyne_description) CommandEnded: {'returncode': 0}
+[0.125745] (velodyne_description) JobEnded: {'identifier': 'velodyne_description', 'rc': 0}
+[0.200939] (-) TimerEvent: {}
+[0.306787] (-) TimerEvent: {}
+[0.409156] (-) TimerEvent: {}
+[0.510406] (-) TimerEvent: {}
+[0.611274] (-) TimerEvent: {}
+[0.711981] (-) TimerEvent: {}
+[0.816566] (-) TimerEvent: {}
+[0.917247] (-) TimerEvent: {}
+[1.017812] (-) TimerEvent: {}
+[1.118705] (-) TimerEvent: {}
+[1.219280] (-) TimerEvent: {}
+[1.319937] (-) TimerEvent: {}
+[1.421727] (-) TimerEvent: {}
+[1.522634] (-) TimerEvent: {}
+[1.624235] (-) TimerEvent: {}
+[1.725261] (-) TimerEvent: {}
+[1.825949] (-) TimerEvent: {}
+[1.926305] (-) TimerEvent: {}
+[2.027347] (-) TimerEvent: {}
+[2.127751] (-) TimerEvent: {}
+[2.228280] (-) TimerEvent: {}
+[2.328991] (-) TimerEvent: {}
+[2.429269] (-) TimerEvent: {}
+[2.529659] (-) TimerEvent: {}
+[2.630081] (-) TimerEvent: {}
+[2.731552] (-) TimerEvent: {}
+[2.832004] (-) TimerEvent: {}
+[2.932546] (-) TimerEvent: {}
+[3.033459] (-) TimerEvent: {}
+[3.134369] (-) TimerEvent: {}
+[3.235153] (-) TimerEvent: {}
+[3.335580] (-) TimerEvent: {}
+[3.436196] (-) TimerEvent: {}
+[3.537871] (-) TimerEvent: {}
+[3.639833] (-) TimerEvent: {}
+[3.740447] (-) TimerEvent: {}
+[3.843229] (-) TimerEvent: {}
+[3.943753] (-) TimerEvent: {}
+[4.044616] (-) TimerEvent: {}
+[4.145149] (-) TimerEvent: {}
+[4.245675] (-) TimerEvent: {}
+[4.346860] (-) TimerEvent: {}
+[4.448483] (-) TimerEvent: {}
+[4.549665] (-) TimerEvent: {}
+[4.650597] (-) TimerEvent: {}
+[4.751308] (-) TimerEvent: {}
+[4.852476] (-) TimerEvent: {}
+[4.952908] (-) TimerEvent: {}
+[5.053572] (-) TimerEvent: {}
+[5.154789] (-) TimerEvent: {}
+[5.255593] (-) TimerEvent: {}
+[5.356083] (-) TimerEvent: {}
+[5.457119] (-) TimerEvent: {}
+[5.557809] (-) TimerEvent: {}
+[5.659238] (-) TimerEvent: {}
+[5.760219] (-) TimerEvent: {}
+[5.862203] (-) TimerEvent: {}
+[5.963361] (-) TimerEvent: {}
+[6.065088] (-) TimerEvent: {}
+[6.165570] (-) TimerEvent: {}
+[6.266735] (-) TimerEvent: {}
+[6.368186] (-) TimerEvent: {}
+[6.471513] (-) TimerEvent: {}
+[6.575460] (-) TimerEvent: {}
+[6.675963] (-) TimerEvent: {}
+[6.776516] (-) TimerEvent: {}
+[6.877099] (-) TimerEvent: {}
+[6.977817] (-) TimerEvent: {}
+[7.078835] (-) TimerEvent: {}
+[7.179603] (-) TimerEvent: {}
+[7.280214] (-) TimerEvent: {}
+[7.380646] (-) TimerEvent: {}
+[7.482574] (-) TimerEvent: {}
+[7.583098] (-) TimerEvent: {}
+[7.684056] (-) TimerEvent: {}
+[7.784839] (-) TimerEvent: {}
+[7.886472] (-) TimerEvent: {}
+[7.988301] (-) TimerEvent: {}
+[8.089042] (-) TimerEvent: {}
+[8.190393] (-) TimerEvent: {}
+[8.291730] (-) TimerEvent: {}
+[8.392986] (-) TimerEvent: {}
+[8.493767] (-) TimerEvent: {}
+[8.594466] (-) TimerEvent: {}
+[8.695585] (-) TimerEvent: {}
+[8.796311] (-) TimerEvent: {}
+[8.897495] (-) TimerEvent: {}
+[8.997966] (-) TimerEvent: {}
+[9.098466] (-) TimerEvent: {}
+[9.200003] (-) TimerEvent: {}
+[9.300842] (-) TimerEvent: {}
+[9.402074] (-) TimerEvent: {}
+[9.503481] (-) TimerEvent: {}
+[9.604521] (-) TimerEvent: {}
+[9.705425] (-) TimerEvent: {}
+[9.806206] (-) TimerEvent: {}
+[9.907284] (-) TimerEvent: {}
+[10.008166] (-) TimerEvent: {}
+[10.108974] (-) TimerEvent: {}
+[10.209567] (-) TimerEvent: {}
+[10.310051] (-) TimerEvent: {}
+[10.411227] (-) TimerEvent: {}
+[10.512242] (-) TimerEvent: {}
+[10.612789] (-) TimerEvent: {}
+[10.713628] (-) TimerEvent: {}
+[10.814805] (-) TimerEvent: {}
+[10.916879] (-) TimerEvent: {}
+[11.017296] (-) TimerEvent: {}
+[11.118018] (-) TimerEvent: {}
+[11.219497] (-) TimerEvent: {}
+[11.321344] (-) TimerEvent: {}
+[11.421747] (-) TimerEvent: {}
+[11.522835] (-) TimerEvent: {}
+[11.624284] (-) TimerEvent: {}
+[11.724874] (-) TimerEvent: {}
+[11.826155] (-) TimerEvent: {}
+[11.927018] (-) TimerEvent: {}
+[12.028399] (-) TimerEvent: {}
+[12.128950] (-) TimerEvent: {}
+[12.229819] (-) TimerEvent: {}
+[12.330471] (-) TimerEvent: {}
+[12.430987] (-) TimerEvent: {}
+[12.532352] (-) TimerEvent: {}
+[12.632855] (-) TimerEvent: {}
+[12.734140] (-) TimerEvent: {}
+[12.834841] (-) TimerEvent: {}
+[12.935445] (-) TimerEvent: {}
+[13.036740] (-) TimerEvent: {}
+[13.138244] (-) TimerEvent: {}
+[13.239363] (-) TimerEvent: {}
+[13.340140] (-) TimerEvent: {}
+[13.441116] (-) TimerEvent: {}
+[13.543010] (-) TimerEvent: {}
+[13.643747] (-) TimerEvent: {}
+[13.744709] (-) TimerEvent: {}
+[13.845884] (-) TimerEvent: {}
+[13.946733] (-) TimerEvent: {}
+[14.047383] (-) TimerEvent: {}
+[14.148066] (-) TimerEvent: {}
+[14.250388] (-) TimerEvent: {}
+[14.351957] (-) TimerEvent: {}
+[14.452742] (-) TimerEvent: {}
+[14.553916] (-) TimerEvent: {}
+[14.654402] (-) TimerEvent: {}
+[14.755323] (-) TimerEvent: {}
+[14.855837] (-) TimerEvent: {}
+[14.957375] (-) TimerEvent: {}
+[15.058138] (-) TimerEvent: {}
+[15.158740] (-) TimerEvent: {}
+[15.260353] (-) TimerEvent: {}
+[15.360798] (-) TimerEvent: {}
+[15.461484] (-) TimerEvent: {}
+[15.561938] (-) TimerEvent: {}
+[15.663196] (-) TimerEvent: {}
+[15.764659] (-) TimerEvent: {}
+[15.865136] (-) TimerEvent: {}
+[15.967319] (-) TimerEvent: {}
+[16.068375] (-) TimerEvent: {}
+[16.169647] (-) TimerEvent: {}
+[16.272756] (-) TimerEvent: {}
+[16.373640] (-) TimerEvent: {}
+[16.474264] (-) TimerEvent: {}
+[16.576079] (-) TimerEvent: {}
+[16.677020] (-) TimerEvent: {}
+[16.777799] (-) TimerEvent: {}
+[16.878934] (-) TimerEvent: {}
+[16.979684] (-) TimerEvent: {}
+[17.080212] (-) TimerEvent: {}
+[17.181941] (-) TimerEvent: {}
+[17.283075] (-) TimerEvent: {}
+[17.383814] (-) TimerEvent: {}
+[17.484348] (-) TimerEvent: {}
+[17.584887] (-) TimerEvent: {}
+[17.685287] (-) TimerEvent: {}
+[17.785923] (-) TimerEvent: {}
+[17.887035] (-) TimerEvent: {}
+[17.987963] (-) TimerEvent: {}
+[18.088405] (-) TimerEvent: {}
+[18.189110] (-) TimerEvent: {}
+[18.289582] (-) TimerEvent: {}
+[18.390242] (-) TimerEvent: {}
+[18.491086] (-) TimerEvent: {}
+[18.591538] (-) TimerEvent: {}
+[18.699313] (-) TimerEvent: {}
+[18.799827] (-) TimerEvent: {}
+[18.902828] (-) TimerEvent: {}
+[19.003800] (-) TimerEvent: {}
+[19.110944] (-) TimerEvent: {}
+[19.211480] (-) TimerEvent: {}
+[19.311941] (-) TimerEvent: {}
+[19.412758] (-) TimerEvent: {}
+[19.513404] (-) TimerEvent: {}
+[19.614583] (-) TimerEvent: {}
+[19.715105] (-) TimerEvent: {}
+[19.816857] (-) TimerEvent: {}
+[19.918484] (-) TimerEvent: {}
+[20.020034] (-) TimerEvent: {}
+[20.120693] (-) TimerEvent: {}
+[20.221949] (-) TimerEvent: {}
+[20.323490] (-) TimerEvent: {}
+[20.423959] (-) TimerEvent: {}
+[20.525207] (-) TimerEvent: {}
+[20.626467] (-) TimerEvent: {}
+[20.727723] (-) TimerEvent: {}
+[20.828851] (-) TimerEvent: {}
+[20.930297] (-) TimerEvent: {}
+[21.031288] (-) TimerEvent: {}
+[21.132528] (-) TimerEvent: {}
+[21.233346] (-) TimerEvent: {}
+[21.334318] (-) TimerEvent: {}
+[21.437098] (-) TimerEvent: {}
+[21.464588] (velodyne_gazebo_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so\x1b[0m\n'}
+[21.537838] (-) TimerEvent: {}
+[21.640183] (-) TimerEvent: {}
+[21.740480] (-) TimerEvent: {}
+[21.845364] (-) TimerEvent: {}
+[21.945908] (-) TimerEvent: {}
+[22.047330] (-) TimerEvent: {}
+[22.148753] (-) TimerEvent: {}
+[22.210530] (velodyne_gazebo_plugins) StdoutLine: {'line': b'[100%] Built target gazebo_ros_velodyne_laser\n'}
+[22.226552] (velodyne_gazebo_plugins) CommandEnded: {'returncode': 0}
+[22.227081] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'install'}
+[22.227120] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins'], 'cwd': '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vdtune'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdtune'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '6071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vdtune/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vdtune'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdtune'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vdtune/ros2_ws/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vdtune/ros2_ws/install/my_avoidance/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vdtune-virtual-machine:@/tmp/.ICE-unix/1377,unix/vdtune-virtual-machine:/tmp/.ICE-unix/1377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b39d0cd_a219_4c47_82d5_e741bd6eb303'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XUQYE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdtune/ros2_ws/build/velodyne_gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble')]), 'shell': False}
+[22.236452] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.236616] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so\n'}
+[22.239647] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""\n'}
+[22.239775] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins\n'}
+[22.239843] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.hpp\n'}
+[22.242627] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh\n'}
+[22.242752] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv\n'}
+[22.242828] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins\n'}
+[22.242895] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins\n'}
+[22.243175] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh\n'}
+[22.243288] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv\n'}
+[22.244095] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh\n'}
+[22.244189] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv\n'}
+[22.244267] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash\n'}
+[22.244338] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh\n'}
+[22.244406] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh\n'}
+[22.244474] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv\n'}
+[22.244916] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv\n'}
+[22.245121] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins\n'}
+[22.245255] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.245345] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.245420] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.245488] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake\n'}
+[22.245570] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake\n'}
+[22.245651] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml\n'}
+[22.248696] (velodyne_gazebo_plugins) CommandEnded: {'returncode': 0}
+[22.249025] (-) TimerEvent: {}
+[22.269420] (velodyne_gazebo_plugins) JobEnded: {'identifier': 'velodyne_gazebo_plugins', 'rc': 0}
+[22.270829] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[22.281899] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[22.283726] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[22.283777] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vdtune/ros2_ws/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/home/vdtune/ros2_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vdtune'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdtune'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '6071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vdtune/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vdtune'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdtune'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vdtune/ros2_ws/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vdtune/ros2_ws/install/my_avoidance/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vdtune-virtual-machine:@/tmp/.ICE-unix/1377,unix/vdtune-virtual-machine:/tmp/.ICE-unix/1377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b39d0cd_a219_4c47_82d5_e741bd6eb303'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XUQYE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdtune/ros2_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble')]), 'shell': False}
+[22.314700] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[22.349360] (-) TimerEvent: {}
+[22.434530] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[22.449566] (-) TimerEvent: {}
+[22.480313] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[22.481712] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[22.481861] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.482014] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[22.482050] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[22.482076] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.484481] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[22.487576] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/vdtune/ros2_ws/build/my_bot\n'}
+[22.510411] (my_bot) CommandEnded: {'returncode': 0}
+[22.511299] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[22.512476] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vdtune/ros2_ws/build/my_bot'], 'cwd': '/home/vdtune/ros2_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vdtune'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdtune'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '6071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vdtune/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vdtune'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdtune'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vdtune/ros2_ws/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vdtune/ros2_ws/install/my_avoidance/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vdtune-virtual-machine:@/tmp/.ICE-unix/1377,unix/vdtune-virtual-machine:/tmp/.ICE-unix/1377'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0b39d0cd_a219_4c47_82d5_e741bd6eb303'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XUQYE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.186'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdtune/ros2_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdtune/ros2_ws/install/my_avoidance/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins:/home/vdtune/ros2_ws/install/velodyne_description:/home/vdtune/ros2_ws/install/my_bot:/home/vdtune/ros2_ws/install/my_avoidance:/opt/ros/humble')]), 'shell': False}
+[22.523730] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.524267] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/config\n'}
+[22.524471] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[22.524614] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description\n'}
+[22.524751] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[22.524838] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro.save\n'}
+[22.524921] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[22.525001] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf\n'}
+[22.525078] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[22.525155] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[22.525231] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch\n'}
+[22.525300] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[22.525369] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[22.525442] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds\n'}
+[22.525774] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[22.525983] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[22.526205] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/rviz\n'}
+[22.526374] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/rviz/my_bot.rviz\n'}
+[22.526539] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[22.526707] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[22.526952] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[22.527052] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[22.527128] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[22.527202] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[22.527275] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[22.527349] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[22.527420] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[22.527506] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[22.527584] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[22.528098] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[22.528592] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[22.528889] (my_bot) StdoutLine: {'line': b'-- Up-to-date: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[22.529133] (my_bot) StdoutLine: {'line': b'-- Installing: /home/vdtune/ros2_ws/install/my_bot/share/my_bot/package.xml\n'}
+[22.531067] (my_bot) CommandEnded: {'returncode': 0}
+[22.550034] (-) TimerEvent: {}
+[22.550561] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[22.551795] (-) EventReactorShutdown: {}

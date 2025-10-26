@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[100%] Built target gazebo_ros_velodyne_laser
+-- Install configuration: ""
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so
+-- Set runtime path of "/home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.hpp
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+-- Installing: /home/vdtune/ros2_ws/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml
