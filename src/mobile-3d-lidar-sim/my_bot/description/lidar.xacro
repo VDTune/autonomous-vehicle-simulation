@@ -169,8 +169,8 @@
 
           <plugin name="gazebo_ros_laser_controller" filename="libgazebo_ros_velodyne_laser.so">
             <ros>
-              <namespace>/velodyne2</namespace>
-              <remapping>~/out:=velodyne_points2</remapping>
+              <namespace>/velodyne</namespace>
+              <remapping>~/out:=velodyne_points</remapping>
             </ros>
 
             <frame_name>top</frame_name>

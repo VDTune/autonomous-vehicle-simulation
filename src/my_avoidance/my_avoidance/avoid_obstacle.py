@@ -1,12 +1,10 @@
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import PointCloud2
-import pcl
-from pcl import PointCloud
-from pcl.point_types import PointXYZ
-from sensor_msgs.msg import PointField  # Import for PointField if needed
-import struct  # For unpacking data
+from sensor_msgs_py import point_cloud2
+import numpy as np
 
 class AvoidObstacleNode(Node):
     def __init__(self):
@@ -14,46 +12,35 @@ class AvoidObstacleNode(Node):
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
         self.subscription = self.create_subscription(
             PointCloud2,
-            '/velodyne2/velodyne_points2',
+            '/velodyne_points',  # đảm bảo khớp với topic thực tế
             self.lidar_callback,
             10
         )
         self.get_logger().info('Avoid obstacle node started')
 
-    def lidar_callback(self, msg):
-        # Chuyển PointCloud2 sang PCL PointCloud
-        pcl_cloud = self.pointcloud2_to_pcl(msg)
+    def lidar_callback(self, msg: PointCloud2):
+        # đọc points (x,y,z)
+        points = list(point_cloud2.read_points(msg, field_names=('x','y','z'), skip_nans=True))
+        if not points:
+            return
 
-        # Lọc point cloud để phát hiện vật cản (x: 0 đến 1m, y: -0.5 đến 0.5m)
-        passthrough = pcl_cloud.make_passthrough_filter()
-        passthrough.set_filter_field_name("x")
-        passthrough.set_filter_limits(0.0, 1.0)
-        passthrough.set_filter_field_name("y")
-        passthrough.set_filter_limits(-0.5, 0.5)
-        filtered_cloud = passthrough.filter()
+        arr = np.array(points, dtype=np.float32)  # shape (N,3)
 
-        # Nếu có points trong vùng (vật cản gần), quay trái
+        # filter: phía trước robot x in (0, 1.0m) và y in (-0.5, 0.5m)
+        mask = (arr[:,0] > 0.0) & (arr[:,0] < 1.0) & (arr[:,1] > -0.5) & (arr[:,1] < 0.5)
+        close_count = np.count_nonzero(mask)
+
         cmd = Twist()
-        if filtered_cloud.size > 10:  # Ngưỡng phát hiện
+        if close_count > 20:
             cmd.linear.x = 0.0
-            cmd.angular.z = 0.5  # Quay trái (rad/s)
-            self.get_logger().info('Obstacle detected, turning left')
+            cmd.angular.z = 0.6
+            self.get_logger().info(f'Obstacle detected, turning left (count={close_count})')
         else:
-            cmd.linear.x = 0.5  # Đi thẳng
+            cmd.linear.x = 0.35
             cmd.angular.z = 0.0
-            self.get_logger().info('No obstacle, moving forward')
+            self.get_logger().info(f'Path clear, moving forward (count={close_count})')
 
         self.publisher_.publish(cmd)
-
-    def pointcloud2_to_pcl(self, cloud_msg):
-        # Hàm tùy chỉnh để chuyển PointCloud2 sang PCL PointCloud
-        points_list = []
-        for data in cloud_msg.data:
-            # Giả định format XYZ (float32 x3)
-            points_list.append(struct.unpack('fff', data))
-        pcl_cloud = pcl.PointCloud()
-        pcl_cloud.from_list(points_list)
-        return pcl_cloud
 
 def main(args=None):
     rclpy.init(args=args)

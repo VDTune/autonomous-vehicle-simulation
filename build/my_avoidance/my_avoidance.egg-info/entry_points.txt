@@ -1,3 +1,0 @@
-[console_scripts]
-avoid_obstacle = my_avoidance.avoid_obstacle:main
-
